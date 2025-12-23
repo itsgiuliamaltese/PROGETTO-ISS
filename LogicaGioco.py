@@ -10,7 +10,7 @@ class Observer(ABC):
     @abstractmethod
     def update(self, subject: Subject) -> None:
         pass
-
+#commentoprova
 class Subject(ABC):
     def __init__(self):
         self._observers: List[Observer] = []
